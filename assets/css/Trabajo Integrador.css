@@ -54,3 +54,9 @@ section {
     height: 40px;
     word-wrap: break-word;
   }
+
+  #orador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
