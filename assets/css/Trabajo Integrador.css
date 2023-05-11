@@ -5,19 +5,58 @@
 }
 
 header {
-    background-color: rgb(53, 58, 64);
+    background-color: rgb(53, 58, 64)!important;
+}
+
+section {
+    display: block;
 }
 
 #navbarNav {
     justify-content: end;
 }
 
-#orador {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .card {
     padding: 5vw 5vh;
+}
+
+.bg-img {
+    background-image: url(../../pages/Ejercicios/img/ba1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.margin-padding { 
+    padding: 200px 150px;
+}
+
+#cards {
+    -ms-flex-align: center;
+}
+
+.footer{
+    margin-top: 1vh;
+    align-items: center;
+    padding: 2Vh 15vh;
+    background-color: rgb(53, 58, 64)!important;
+  }
+  
+  .btn-footer{
+    font-size: 16px;
+    color: white;
+    width: 140px;
+    height: 40px;
+    word-wrap: break-word;
+  }
+
+  #orador {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
