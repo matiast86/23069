@@ -5,12 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../23069/assets/css/jsstyles.css" >
+    <link rel="stylesheet" href="css/jsstyles.css">
 </head>
 <body>
-    <div id="miDiv">
-        <h1>Primeros pasos en JavaScript</h1>
+    <div>
+        <label>Valor1:</label>
+        <input type="number" id="valor1">
     </div>
-    <script src="../js/sumador.js"></script>
+    <div>
+        <label>Valor2:</label>
+        <input type="number" id="valor2">
+    </div>
+    <div>
+        <button onclick="sumar()">+</button>
+        <button id="btnSumador">+ v2</button>
+    </div>
+    <div>
+        <label>Res:</label>
+        <div id="resultado">
+
+        </div>
+    </div>
+    <script src="./js/sumador.js"></script>
 </body>
 </html>
