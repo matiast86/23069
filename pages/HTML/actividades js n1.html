@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividades</title>
+</head>
+<body>
+    <div>
+        <form>
+            <div>
+                <label>Nombre completo:</label>
+                <input id="nombreCompleto">
+                <button onclick="imprimirNombrePorConsola()">Imprimir Nombre</button>
+            </div>
+            <div>
+                <label>Fecha de nacimiento</label>
+                <input id="birthdate" type="date">
+                <label>Edad:</label>
+                <div id="age"></div>
+            </div>
+            <div>
+                <h3>IMC</h3>
+                <h4>Ingrese su peso y altura para obtener su IMC</h4>
+                <label>Peso:</label>
+                <input id="peso" type="number">
+                <label>Altura en cm:</label>
+                <input id="altura" type="number">
+                <label>IMC:</label>
+                <button onclick="calculoIndiceMasaCorporal()">Obtener IMC</button>
+                <div id="imc"></div>
+            </div>
+        </form>
+        <div>
+            <h2>Empecemos con geometría</h2>
+            <h4>Ingresa la base y la altura de un triángulo para obtener su superficie y perímetro</h4>
+            <div>
+                <label>Base del triángulo:</label>
+                <input id="baseDeTriangulo" type="number">
+                <label>Altura del triángulo</label>
+                <input id="alturaDeTriangulo" type="number">
+                <button onclick="">Calcular</button>
+            </div>
+        </div>
+    </div>
+    <script src="../../js/Actividades N1.js"></script>
+</body>
+</html>
